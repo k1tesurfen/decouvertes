@@ -1,0 +1,23 @@
+[
+  {
+    "id": "py_array_init_1",
+    "language": "python",
+    "tags": ["array", "list", "initialization"],
+    "prompt": "Define an empty list (array) and assign it to the variable 'foo'.",
+    "solution": "foo = []"
+  },
+  {
+    "id": "java_array_init_1",
+    "language": "java",
+    "tags": ["array", "initialization"],
+    "prompt": "Define an empty String array with a size of 10 and assign it to the variable 'foo'.",
+    "solution": "String[] foo = new String[10];"
+  },
+  {
+    "id": "py_for_loop_1",
+    "language": "python",
+    "tags": ["loop", "for"],
+    "prompt": "Write a for loop that iterates through a list named 'items'.",
+    "solution": "for item in items:"
+  }
+]
