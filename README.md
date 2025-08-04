@@ -4,6 +4,8 @@ A terminal-based Leitner box for learning programming syntax, right in Neovim.
 
 Currently the game is only tested on macOS
 
+![Screenshot of game in action](screenshots/game-preview.png)
+
 ---
 
 ### Prerequisites
