@@ -1,3 +1,5 @@
+[![Go](https://github.com/k1tesurfen/decouvertes/actions/workflows/go.yml/badge.svg)](https://github.com/k1tesurfen/decouvertes/actions/workflows/go.yml)
+
 # decouvertes
 
 A terminal-based Leitner box for learning programming syntax, right in Neovim.
