@@ -100,7 +100,7 @@ return {
 				return
 			end
 			local lines = {
-				"Language: " .. card.language,
+				"" .. card.language,
 				"",
 				"Question:",
 				"------------------",

@@ -1,23 +1,268 @@
 [
   {
-    "id": "py_array_init_1",
+    "id": "py_var_string_1",
     "language": "python",
-    "tags": ["array", "list", "initialization"],
-    "prompt": "Define an empty list (array) and assign it to the variable 'foo'.",
+    "tags": ["variable", "string"],
+    "prompt": "In Python, declare a string variable named 'foo' with the value 'bar'.",
+    "solution": "foo = 'bar'"
+  },
+  {
+    "id": "js_var_string_1",
+    "language": "javascript",
+    "tags": ["variable", "string", "es6"],
+    "prompt": "In modern JavaScript (ES6+), declare a block-scoped string variable named 'foo' with the value 'bar'.",
+    "solution": "let foo = 'bar';"
+  },
+  {
+    "id": "php_var_string_1",
+    "language": "php",
+    "tags": ["variable", "string"],
+    "prompt": "In PHP, declare a string variable named 'foo' with the value 'bar'.",
+    "solution": "$foo = 'bar';"
+  },
+  {
+    "id": "py_list_init_1",
+    "language": "python",
+    "tags": ["list", "initialization"],
+    "prompt": "In Python, create an empty list and assign it to the variable 'foo'.",
     "solution": "foo = []"
   },
   {
-    "id": "java_array_init_1",
-    "language": "java",
+    "id": "js_array_init_1",
+    "language": "javascript",
     "tags": ["array", "initialization"],
-    "prompt": "Define an empty String array with a size of 10 and assign it to the variable 'foo'.",
-    "solution": "String[] foo = new String[10];"
+    "prompt": "In JavaScript, create an empty array and assign it to the variable 'foo'.",
+    "solution": "let foo = [];"
+  },
+  {
+    "id": "php_array_init_1",
+    "language": "php",
+    "tags": ["array", "initialization"],
+    "prompt": "In PHP, create an empty array and assign it to the variable 'foo'.",
+    "solution": "$foo = [];"
+  },
+  {
+    "id": "py_dict_init_1",
+    "language": "python",
+    "tags": ["dictionary", "initialization"],
+    "prompt": "In Python, create an empty dictionary and assign it to 'foo'.",
+    "solution": "foo = {}"
+  },
+  {
+    "id": "js_obj_init_1",
+    "language": "javascript",
+    "tags": ["object", "initialization"],
+    "prompt": "In JavaScript, create an empty object and assign it to 'foo'.",
+    "solution": "let foo = {};"
+  },
+  {
+    "id": "php_assoc_array_init_1",
+    "language": "php",
+    "tags": ["array", "associative", "initialization"],
+    "prompt": "In PHP, create an empty associative array and assign it to 'foo'.",
+    "solution": "$foo = [];"
   },
   {
     "id": "py_for_loop_1",
     "language": "python",
     "tags": ["loop", "for"],
-    "prompt": "Write a for loop that iterates through a list named 'items'.",
+    "prompt": "In Python, write a for loop that iterates through a list named 'items'.",
     "solution": "for item in items:"
+  },
+  {
+    "id": "js_for_of_loop_1",
+    "language": "javascript",
+    "tags": ["loop", "for-of", "es6"],
+    "prompt": "In modern JavaScript (ES6+), write a for...of loop to iterate through an array named 'items'.",
+    "solution": "for (const item of items) {}"
+  },
+  {
+    "id": "php_foreach_loop_1",
+    "language": "php",
+    "tags": ["loop", "foreach"],
+    "prompt": "In PHP, write a foreach loop to iterate through an array named '$items' as '$item'.",
+    "solution": "foreach ($items as $item) {}"
+  },
+  {
+    "id": "php_obj_create_stdclass_1",
+    "language": "php",
+    "tags": ["object", "stdclass"],
+    "prompt": "In PHP, create an empty stdClass object and assign it to $user.",
+    "solution": "$user = new stdClass();"
+  },
+  {
+    "id": "php_obj_set_property_1",
+    "language": "php",
+    "tags": ["object", "property", "set"],
+    "prompt": "In PHP, set the 'name' property of an stdClass object $user to 'Alice'.",
+    "solution": "$user->name = 'Alice';"
+  },
+  {
+    "id": "php_obj_get_property_1",
+    "language": "php",
+    "tags": ["object", "property", "get"],
+    "prompt": "In PHP, get the value of the 'name' property from the object $user.",
+    "solution": "$name = $user->name;"
+  },
+  {
+    "id": "php_obj_foreach_property_1",
+    "language": "php",
+    "tags": ["object", "loop"],
+    "prompt": "In PHP, use foreach to loop over all properties of an object $user.",
+    "solution": "foreach ($user as $key => $value)"
+  },
+  {
+    "id": "php_obj_to_array_1",
+    "language": "php",
+    "tags": ["object", "conversion"],
+    "prompt": "In PHP, convert an object $user to an array.",
+    "solution": "$array = (array) $user;"
+  },
+  {
+    "id": "php_array_to_obj_1",
+    "language": "php",
+    "tags": ["object", "conversion"],
+    "prompt": "In PHP, convert an associative array $data to an object.",
+    "solution": "$object = (object) $data;"
+  },
+  {
+    "id": "js_obj_access_property_1",
+    "language": "javascript",
+    "tags": ["object", "access"],
+    "prompt": "In JavaScript, access the 'name' property of an object called 'user'.",
+    "solution": "user.name"
+  },
+  {
+    "id": "js_obj_access_property_bracket_1",
+    "language": "javascript",
+    "tags": ["object", "access", "bracket"],
+    "prompt": "In JavaScript, access the 'name' property of an object called 'user' using bracket notation.",
+    "solution": "user['name']"
+  },
+  {
+    "id": "js_obj_add_property_1",
+    "language": "javascript",
+    "tags": ["object", "modify"],
+    "prompt": "In JavaScript, add a new property 'age' with the value 30 to an object 'user'.",
+    "solution": "user.age = 30;"
+  },
+  {
+    "id": "js_obj_loop_keys_1",
+    "language": "javascript",
+    "tags": ["object", "loop", "keys"],
+    "prompt": "In JavaScript, loop through the keys of an object 'user' and log them.",
+    "solution": "for (const key in user) {\n  console.log(key);\n}"
+  },
+  {
+    "id": "js_obj_get_values_1",
+    "language": "javascript",
+    "tags": ["object", "values"],
+    "prompt": "In JavaScript, get an array of all values from an object 'user'.",
+    "solution": "Object.values(user);"
+  },
+  {
+    "id": "js_obj_destructuring_1",
+    "language": "javascript",
+    "tags": ["object", "destructuring", "es6"],
+    "prompt": "In JavaScript, use destructuring to extract 'name' and 'email' from an object 'user'.",
+    "solution": "const { name, email } = user;"
+  },
+  {
+    "id": "js_var_number_1",
+    "language": "javascript",
+    "tags": ["variable", "number", "es6"],
+    "prompt": "In JavaScript, declare a constant number 'count' with the value 10.",
+    "solution": "const count = 10;"
+  },
+  {
+    "id": "js_var_bool_1",
+    "language": "javascript",
+    "tags": ["variable", "boolean", "es6"],
+    "prompt": "In JavaScript, declare a boolean variable 'isActive' and set it to true.",
+    "solution": "let isActive = true;"
+  },
+  {
+    "id": "js_array_values_1",
+    "language": "javascript",
+    "tags": ["array", "values"],
+    "prompt": "In JavaScript, declare an array named 'colors' with the values 'red', 'green', and 'blue'.",
+    "solution": "const colors = ['red', 'green', 'blue'];"
+  },
+  {
+    "id": "js_object_literal_1",
+    "language": "javascript",
+    "tags": ["object", "literal"],
+    "prompt": "In JavaScript, declare an object named 'user' with the keys 'name' and 'email'.",
+    "solution": "const user = { name: 'Alice', email: 'alice@example.com' };"
+  },
+  {
+    "id": "js_if_condition_1",
+    "language": "javascript",
+    "tags": ["if", "condition"],
+    "prompt": "In JavaScript, write an if statement that checks if 'count' is greater than 5.",
+    "solution": "if (count > 5) {\n  // do something\n}"
+  },
+  {
+    "id": "js_function_arrow_1",
+    "language": "javascript",
+    "tags": ["function", "arrow", "es6"],
+    "prompt": "In JavaScript, declare an arrow function named 'greet' that returns 'Hello'.",
+    "solution": "const greet = () => 'Hello';"
+  },
+  {
+    "id": "js_template_string_1",
+    "language": "javascript",
+    "tags": ["string", "template"],
+    "prompt": "In JavaScript, use a template string to print 'Hello Alice' where name = 'Alice'.",
+    "solution": "const name = 'Alice';\nconsole.log(`Hello ${name}`);"
+  },
+  {
+    "id": "php_var_number_1",
+    "language": "php",
+    "tags": ["variable", "number"],
+    "prompt": "In PHP, declare an integer variable named 'count' with the value 10.",
+    "solution": "$count = 10;"
+  },
+  {
+    "id": "php_var_bool_1",
+    "language": "php",
+    "tags": ["variable", "boolean"],
+    "prompt": "In PHP, declare a boolean variable 'isActive' and set it to true.",
+    "solution": "$isActive = true;"
+  },
+  {
+    "id": "php_array_values_1",
+    "language": "php",
+    "tags": ["array", "values"],
+    "prompt": "In PHP, declare an array named 'colors' with the values 'red', 'green', and 'blue'.",
+    "solution": "$colors = ['red', 'green', 'blue'];"
+  },
+  {
+    "id": "php_assoc_array_values_1",
+    "language": "php",
+    "tags": ["array", "associative"],
+    "prompt": "In PHP, declare an associative array named 'user' with the keys 'name' and 'email'.",
+    "solution": "$user = ['name' => 'Alice', 'email' => 'alice@example.com'];"
+  },
+  {
+    "id": "php_if_condition_1",
+    "language": "php",
+    "tags": ["if", "condition"],
+    "prompt": "In PHP, write an if statement that checks if variable '$count' is greater than 5.",
+    "solution": "if ($count > 5) {\n    // do something\n}"
+  },
+  {
+    "id": "php_function_basic_1",
+    "language": "php",
+    "tags": ["function", "definition"],
+    "prompt": "In PHP, define a function named 'greet' that echoes 'Hello'.",
+    "solution": "function greet() {\n    echo 'Hello';\n}"
+  },
+  {
+    "id": "php_string_interpolation_1",
+    "language": "php",
+    "tags": ["string", "interpolation"],
+    "prompt": "In PHP, echo the string 'Hello Alice' using a variable $name set to 'Alice'.",
+    "solution": "$name = 'Alice';\necho \"Hello $name\";"
   }
 ]
